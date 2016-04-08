@@ -260,7 +260,7 @@ public class Bartok : MonoBehaviour {
 
 	public void RestartGame(){
 		CURRENT_PLAYER = null;
-		Application.loadedLevel ("__Bartok_Scene_0");
+		Application.LoadLevel ("__Bartok_Scene_0");
 	}
 
 	/*
